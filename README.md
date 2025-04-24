@@ -45,6 +45,12 @@ This project applies modern design and psychology principles to build trust and 
 
 ---
 
+## 🗺 Live Map Note
+ Due to API quota limits on Mockaroo, data has been cached locally during development (/public/mock-orders.json).
+ Map coordinates are resolved using OpenStreetMap Nominatim API or directly from location_coordinate_latitude/longitude fields provided in the dataset.
+
+---
+
 ## 📦 Installation
 
 ```bash
@@ -52,10 +58,3 @@ git clone https://github.com/anonManBond/Parcel-Tracker-Site.git
 cd Parcel-Tracker-Site
 npm install
 npm start
-
----
-
-## 🗺 Live Map Note
- Due to API quota limits on Mockaroo, data has been cached locally during development (/public/mock-orders.json).
- Map coordinates are resolved using OpenStreetMap Nominatim API or directly from location_coordinate_latitude/longitude fields provided in the dataset.
-
